@@ -12,10 +12,15 @@ The purpose of the application is to allow people to see augmented reality versi
 This will incorporate primarily the use of AR for creating a unique application. Additional areas that will be required are the camera and QR code scanning plugins.
 
 ## Mocks for each screen
+![.](mockups/1.png)
 1. Home screen
+![Home screen](mockups/2.png)
 2. QR scanning screen
+![QR scanning screen](mockups/3.png)
 3. Display image of what a food item would look like when on screen
-4. Image of the library of previous searches. 
+![image of what a food item would look like when on screen](mockups/4.png)
+4. Image of the library of previous searches.
+![Previous searches](mockups/5.png) 
 
 ## Value of the app for the user
 There can be large language barriers when in a restaurant where the language of the menu is not a language someone knows. This app can help make decisions by showing the user what the food will look like in real-world space and help further push people to try new things. While traveling, this can be extremely helpful as language barriers are common when outside of your home country.
