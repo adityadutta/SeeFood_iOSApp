@@ -13,13 +13,21 @@ This will incorporate primarily the use of AR for creating a unique application.
 
 ## Mocks for each screen
 ![.](mockups/1.png)
+
 1. Home screen
+
 ![Home screen](mockups/2.png)
+
 2. QR scanning screen
+
 ![QR scanning screen](mockups/3.png)
+
 3. Display image of what a food item would look like when on screen
+
 ![image of what a food item would look like when on screen](mockups/4.png)
+
 4. Image of the library of previous searches.
+
 ![Previous searches](mockups/5.png) 
 
 ## Value of the app for the user
