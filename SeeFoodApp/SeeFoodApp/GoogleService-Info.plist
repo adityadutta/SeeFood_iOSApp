@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>957152896992-1e3dadu5ua0eku0liovv20l4qpt5cqv7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.957152896992-1e3dadu5ua0eku0liovv20l4qpt5cqv7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAoV9jT4sqW8WlvlWQj_gPmt2nCutdDeBQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>957152896992</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.seefood.SeeFoodApp</string>
+	<key>PROJECT_ID</key>
+	<string>seefood-e8c1b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>seefood-e8c1b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:957152896992:ios:4a2f072ec179634620ad85</string>
+	<key>DATABASE_URL</key>
+	<string>https://seefood-e8c1b.firebaseio.com</string>
+</dict>
+</plist>
