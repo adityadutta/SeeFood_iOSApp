@@ -3,31 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D741DB1B1AE19D2E81FB2906 /* Pods_SeeFoodApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0966F7D1EF97917F7C611A /* Pods_SeeFoodApp.framework */; };
 		DDF115AB23D7DCB000E76D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF115AA23D7DCB000E76D07 /* AppDelegate.swift */; };
 		DDF115AD23D7DCB000E76D07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF115AC23D7DCB000E76D07 /* ViewController.swift */; };
 		DDF115B023D7DCB000E76D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF115AE23D7DCB000E76D07 /* Main.storyboard */; };
 		DDF115B223D7DCB000E76D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF115B123D7DCB000E76D07 /* Assets.xcassets */; };
 		DDF115B523D7DCB000E76D07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF115B323D7DCB000E76D07 /* LaunchScreen.storyboard */; };
 		DDF115BD23D7DCBB00E76D07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDF115BC23D7DCBB00E76D07 /* GoogleService-Info.plist */; };
-		DDF115C823D7DD0800E76D07 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF115BE23D7DD0700E76D07 /* FirebaseAnalytics.framework */; };
-		DDF115C923D7DD0800E76D07 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF115BF23D7DD0700E76D07 /* FirebaseCoreDiagnostics.framework */; };
-		DDF115CA23D7DD0800E76D07 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF115C023D7DD0700E76D07 /* GoogleAppMeasurement.framework */; };
-		DDF115CB23D7DD0800E76D07 /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF115C123D7DD0700E76D07 /* GoogleDataTransport.framework */; };
-		DDF115CC23D7DD0800E76D07 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF115C223D7DD0700E76D07 /* GoogleUtilities.framework */; };
-		DDF115CD23D7DD0800E76D07 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF115C323D7DD0700E76D07 /* nanopb.framework */; };
-		DDF115CE23D7DD0800E76D07 /* GoogleDataTransportCCTSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF115C423D7DD0700E76D07 /* GoogleDataTransportCCTSupport.framework */; };
-		DDF115CF23D7DD0800E76D07 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF115C523D7DD0700E76D07 /* FirebaseCore.framework */; };
-		DDF115D023D7DD0800E76D07 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF115C623D7DD0700E76D07 /* FirebaseInstanceID.framework */; };
-		DDF115D123D7DD0800E76D07 /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF115C723D7DD0800E76D07 /* FIRAnalyticsConnector.framework */; };
-		DDF115D423D7DD1000E76D07 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF115D223D7DD0F00E76D07 /* FirebaseDatabase.framework */; };
-		DDF115D523D7DD1000E76D07 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF115D323D7DD1000E76D07 /* leveldb-library.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C9D82A21969672AD75CD6A0 /* Pods-SeeFoodApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeFoodApp.debug.xcconfig"; path = "Target Support Files/Pods-SeeFoodApp/Pods-SeeFoodApp.debug.xcconfig"; sourceTree = "<group>"; };
+		93DD89B2D8AF1074C3439B0E /* Pods-SeeFoodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeFoodApp.release.xcconfig"; path = "Target Support Files/Pods-SeeFoodApp/Pods-SeeFoodApp.release.xcconfig"; sourceTree = "<group>"; };
+		9A0966F7D1EF97917F7C611A /* Pods_SeeFoodApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeeFoodApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF115A723D7DCB000E76D07 /* SeeFoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF115AA23D7DCB000E76D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDF115AC23D7DCB000E76D07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,20 +28,6 @@
 		DDF115B423D7DCB000E76D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDF115B623D7DCB000E76D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDF115BC23D7DCBB00E76D07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		DDF115BE23D7DD0700E76D07 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		DDF115BF23D7DD0700E76D07 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
-		DDF115C023D7DD0700E76D07 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
-		DDF115C123D7DD0700E76D07 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = "<group>"; };
-		DDF115C223D7DD0700E76D07 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
-		DDF115C323D7DD0700E76D07 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
-		DDF115C423D7DD0700E76D07 /* GoogleDataTransportCCTSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransportCCTSupport.framework; sourceTree = "<group>"; };
-		DDF115C523D7DD0700E76D07 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
-		DDF115C623D7DD0700E76D07 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		DDF115C723D7DD0800E76D07 /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIRAnalyticsConnector.framework; sourceTree = "<group>"; };
-		DDF115D223D7DD0F00E76D07 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
-		DDF115D323D7DD1000E76D07 /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "leveldb-library.framework"; sourceTree = "<group>"; };
-		DDF115D623D7DD1B00E76D07 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
-		DDF115D723D7DD1B00E76D07 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,29 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF115C823D7DD0800E76D07 /* FirebaseAnalytics.framework in Frameworks */,
-				DDF115CE23D7DD0800E76D07 /* GoogleDataTransportCCTSupport.framework in Frameworks */,
-				DDF115CB23D7DD0800E76D07 /* GoogleDataTransport.framework in Frameworks */,
-				DDF115D123D7DD0800E76D07 /* FIRAnalyticsConnector.framework in Frameworks */,
-				DDF115C923D7DD0800E76D07 /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				DDF115D523D7DD1000E76D07 /* leveldb-library.framework in Frameworks */,
-				DDF115D023D7DD0800E76D07 /* FirebaseInstanceID.framework in Frameworks */,
-				DDF115CF23D7DD0800E76D07 /* FirebaseCore.framework in Frameworks */,
-				DDF115CC23D7DD0800E76D07 /* GoogleUtilities.framework in Frameworks */,
-				DDF115D423D7DD1000E76D07 /* FirebaseDatabase.framework in Frameworks */,
-				DDF115CD23D7DD0800E76D07 /* nanopb.framework in Frameworks */,
-				DDF115CA23D7DD0800E76D07 /* GoogleAppMeasurement.framework in Frameworks */,
+				D741DB1B1AE19D2E81FB2906 /* Pods_SeeFoodApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07DA2C1955CD4DBB8C238288 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A0966F7D1EF97917F7C611A /* Pods_SeeFoodApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3CC50C5D215AA3BE8E401B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C9D82A21969672AD75CD6A0 /* Pods-SeeFoodApp.debug.xcconfig */,
+				93DD89B2D8AF1074C3439B0E /* Pods-SeeFoodApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DDF1159E23D7DCB000E76D07 = {
 			isa = PBXGroup;
 			children = (
 				DDF115A923D7DCB000E76D07 /* SeeFoodApp */,
 				DDF115A823D7DCB000E76D07 /* Products */,
+				B3CC50C5D215AA3BE8E401B5 /* Pods */,
+				07DA2C1955CD4DBB8C238288 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,20 +80,6 @@
 		DDF115A923D7DCB000E76D07 /* SeeFoodApp */ = {
 			isa = PBXGroup;
 			children = (
-				DDF115D623D7DD1B00E76D07 /* Firebase.h */,
-				DDF115D723D7DD1B00E76D07 /* module.modulemap */,
-				DDF115D223D7DD0F00E76D07 /* FirebaseDatabase.framework */,
-				DDF115D323D7DD1000E76D07 /* leveldb-library.framework */,
-				DDF115C723D7DD0800E76D07 /* FIRAnalyticsConnector.framework */,
-				DDF115BE23D7DD0700E76D07 /* FirebaseAnalytics.framework */,
-				DDF115C523D7DD0700E76D07 /* FirebaseCore.framework */,
-				DDF115BF23D7DD0700E76D07 /* FirebaseCoreDiagnostics.framework */,
-				DDF115C623D7DD0700E76D07 /* FirebaseInstanceID.framework */,
-				DDF115C023D7DD0700E76D07 /* GoogleAppMeasurement.framework */,
-				DDF115C123D7DD0700E76D07 /* GoogleDataTransport.framework */,
-				DDF115C423D7DD0700E76D07 /* GoogleDataTransportCCTSupport.framework */,
-				DDF115C223D7DD0700E76D07 /* GoogleUtilities.framework */,
-				DDF115C323D7DD0700E76D07 /* nanopb.framework */,
 				DDF115BC23D7DCBB00E76D07 /* GoogleService-Info.plist */,
 				DDF115AA23D7DCB000E76D07 /* AppDelegate.swift */,
 				DDF115AC23D7DCB000E76D07 /* ViewController.swift */,
@@ -126,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDF115B923D7DCB000E76D07 /* Build configuration list for PBXNativeTarget "SeeFoodApp" */;
 			buildPhases = (
+				2116113529CA6C06BF4DDB72 /* [CP] Check Pods Manifest.lock */,
 				DDF115A323D7DCB000E76D07 /* Sources */,
 				DDF115A423D7DCB000E76D07 /* Frameworks */,
 				DDF115A523D7DCB000E76D07 /* Resources */,
+				B4FD280F82D1E16C218006D0 /* [CP] Embed Pods Frameworks */,
+				403577E2A3C14FD2C786A6CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,6 +160,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2116113529CA6C06BF4DDB72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeeFoodApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		403577E2A3C14FD2C786A6CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeeFoodApp/Pods-SeeFoodApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeeFoodApp/Pods-SeeFoodApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeeFoodApp/Pods-SeeFoodApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4FD280F82D1E16C218006D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeeFoodApp/Pods-SeeFoodApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeeFoodApp/Pods-SeeFoodApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeeFoodApp/Pods-SeeFoodApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DDF115A323D7DCB000E76D07 /* Sources */ = {
@@ -340,6 +374,7 @@
 		};
 		DDF115BA23D7DCB000E76D07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9D82A21969672AD75CD6A0 /* Pods-SeeFoodApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -352,7 +387,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.seefood.SeeFoodApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -363,6 +397,7 @@
 		};
 		DDF115BB23D7DCB000E76D07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93DD89B2D8AF1074C3439B0E /* Pods-SeeFoodApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,7 +410,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.seefood.SeeFoodApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
